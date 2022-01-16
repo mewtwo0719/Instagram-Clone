@@ -1,0 +1,99 @@
+.post-expanded{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, .85);
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.post-expanded-wrapper{
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    max-width: 80vw;
+    max-height: 90vh;
+}
+.post-expanded-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    overflow: hidden;
+    
+}
+.follow-user-profile{
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    color: var(--main-blue)
+}
+.following-user-profile{
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    color: var(--primary-dark)
+}
+.post-top .user .user-username{
+    margin-right: 5px;
+}
+.comments-section{
+    max-height: 460px;
+    overflow-y: scroll;
+    flex-grow: 1;
+    margin-bottom: auto;
+}
+.post-bottom{
+    display: flex;
+    flex-direction: column;
+}
+.post-bottom-expanded{    
+    margin-top: auto;
+    
+
+
+}
+.comments-section .user-img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+    border: 1px solid #d3d3d3;
+    cursor: pointer;
+    margin-top: 2px;
+}
+.comments-section .expanded-comment{
+    padding: 5px 0 5px 0;
+    align-items: flex-start;    
+    
+}
+.comments-section .expanded-comment .user{
+    padding-top: 9px;
+}
+.comments-section .expanded-comment .user:hover{
+    text-decoration: underline;
+}
+.expanded-comment .user-comment{
+    max-width: 300px;
+    white-space: pre-wrap;
+}
+.post-expanded-right{
+    max-width: 500px;
+    min-width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.post-bottom-wrapper{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}

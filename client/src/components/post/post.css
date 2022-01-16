@@ -1,0 +1,126 @@
+
+.post{
+    max-width: 600px;
+    -webkit-box-shadow: 0px 0px 2px 0px #4e4e4e; 
+    box-shadow: 0px 0px 2px 0px #4e4e4e;
+    border-radius: 2px;
+    margin: 2em;
+    background-color: white;
+}
+.post-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 18px;
+    border-bottom: 1px solid rgba(207, 207, 207, 0.575);
+}
+.post-top .user{
+    display: flex;
+    align-items: center;
+}
+
+.user{
+    margin-right: 8px;
+}
+.user .user-img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+    border: 1px solid #d3d3d3;
+    cursor: pointer;
+}
+span{
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+}
+.user .user-username:hover{
+    text-decoration: underline;
+}
+.btn-icon{
+    cursor: pointer;
+    color: rgb(63, 63, 63);
+    border: none;
+    
+}
+.post-center{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+
+}
+.post-image{
+    width: 100%;
+    max-width: 600px;
+    max-height: 600px;
+    object-fit: contain;
+    margin-bottom: -4px;
+}
+.post-bottom{
+    margin: 10px 18px;
+}
+.action-section{
+height: 50px;
+display: flex;
+
+}
+.action-section .btn-icon{
+    font-size: 28px;
+    width: 24px;
+    height: 24px;
+    background-color: transparent;
+    transform: scale(1.1);
+    margin-right: 18px;
+    object-fit: contain;
+}
+.action-section .btn-icon:last-child{
+    margin-left: auto;
+    margin-right: 0;
+}
+.comment{
+    display: flex;
+}
+.user-comment{
+    margin: 8px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.more-comments{
+    font-size: 14px;
+    color: gray;
+    cursor: pointer;
+}
+.posting-time{
+    font-size: 12px;
+    color: gray;
+    margin: 10px 0;
+}
+.add-comment-section{
+    width: 100%;
+    padding: 20px 0;
+    border-top: 1px solid rgb(212, 211, 211);
+}
+.add-comment-input{
+    width: calc(100% - 45px);  
+    border: none;
+    font-size: 16px;
+    margin-right: 10px;
+
+}
+.add-comment-input::placeholder{
+    color: gray;
+}
+.add-comment-input:focus{
+    outline: none;
+}
+.post-comment{
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    color: var(--main-blue)
+}

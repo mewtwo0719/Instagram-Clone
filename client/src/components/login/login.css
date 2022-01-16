@@ -1,0 +1,23 @@
+.login{
+   display: flex;
+   justify-content: center;
+}
+
+.register .forgot-password{
+    font-size: 14px;
+    color: #385185;
+    cursor: pointer;
+}
+.signup-link{
+    margin-bottom: 40px;
+}
+.signup-link span{
+    color: var(--main-blue);
+    font-size: 16px;
+    font-weight: 600;
+}
+#login-msg{
+    color: #ef616c;
+    font-size: 14px;
+    text-align: center;
+}

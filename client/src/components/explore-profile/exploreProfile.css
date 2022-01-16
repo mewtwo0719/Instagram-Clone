@@ -1,0 +1,29 @@
+.explore-profile{
+    display: flex;
+    margin: 10px;
+    align-items: center;
+}
+
+.explore-profile .profile-img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+    border: 1px solid #d3d3d3;
+    cursor: pointer;
+}
+
+.explore-profile .name-info .name{
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+.explore-profile .name-info .name:hover{
+    text-decoration: underline;
+}
+.explore-profile .name-info .info{
+    font-size: 14px;
+    color: gray;
+}

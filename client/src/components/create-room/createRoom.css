@@ -1,0 +1,98 @@
+.create-room{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.658);
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.create-room-wrapper{
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    max-width: 80vw;
+    max-height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+.create-room-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 15px;
+    min-width: 400px;
+    color: var(--primary-dark);
+}
+.create-room-top svg{
+    cursor: pointer;
+}
+.create-room-center{
+    display: flex;
+    align-items: center;
+    padding: 15px 15px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+.add-people-to-room{
+    flex-grow: 1;
+    border: none;
+    font-size: 16px;
+    color: var(--primary-dark);
+    margin: 0 15px;
+}
+.add-people-to-room:focus{
+    outline: none;
+}
+.create-room-bottom{
+    color: var(--primary-dark);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px 15px;
+    font-weight: 400;
+    overflow-y: scroll;
+}
+.create-room-bottom h4{
+    margin-bottom: 15px;
+}
+.create-room-bottom .chat-room{
+    margin-left: 0;
+    padding-left: 0;
+}
+.create-room-bottom .chat-room .chat-room-icon{
+    width: 45px;
+    height: 45px;
+}
+.suggested-chat{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.suggested-chat .chat-room{
+    flex-grow: 1;
+}
+.hidden-check{
+    display: none;
+}
+.hidden-check + .add-user-checkbox{
+    border: none;
+    height: 23px;
+    width: 23px;
+    border-radius: 50%;
+    border: 2px solid var(--primary-dark);
+}
+.hidden-check + .add-user-checkbox svg{
+    display: none;
+}
+.hidden-check:checked + .add-user-checkbox{
+    border: none;
+ 
+ }
+.hidden-check:checked + .add-user-checkbox svg{
+   display: block;
+
+}

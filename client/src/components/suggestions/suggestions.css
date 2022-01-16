@@ -1,0 +1,19 @@
+.suggestions{
+    margin: 30px 10px;
+}
+.suggestions h4{
+    color: gray;
+}
+.suggestions .suggestion{
+    display: flex;
+    align-items: center;
+    width: 350px;
+    justify-content: space-between;
+
+}
+.suggestions .suggestion span{
+    margin-left: 20px;
+    font-size: 13px;
+    cursor: pointer;
+    color: var(--main-blue)
+}

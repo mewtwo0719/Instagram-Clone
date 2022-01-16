@@ -1,0 +1,104 @@
+.create-post{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .85);
+    z-index: 1000;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.create-post-wrapper{
+    min-width: 550px;
+    height: 600px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.input-form{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.input-form h4{
+    font-size: 22px;
+    color: rgb(99, 99, 99);
+    padding: 15px;
+}
+.input-form .upload-btn{
+    background-color: var(--main-blue);
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-top: 15px;
+}
+.input-form .upload-btn-lbl{
+    width: auto;
+    height: auto;
+    z-index: 1001;
+}
+.close-create-post{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.create-post-preview{
+    display: flex; 
+    width: 900px;
+    height: 500px;
+    margin: 10px;
+    justify-content: space-between;
+}
+.create-post-preview img{
+    width: 100%;
+    max-width: 600px;
+    max-height: 600px;
+    object-fit: contain;
+}
+.share-post-btn{
+    margin-left: auto;
+    align-self: flex-end;
+    justify-content: center;
+    align-self: center;
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    color: var(--main-blue)
+}
+.cnp{
+    display: flex;
+    margin-right: 15px;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-bottom: 1px solid #d4d4d4;
+
+}
+
+.create-post-wrapper h3{
+    text-align: center;
+    font-size: 16px;
+    color: var(--primary-dark);
+    align-self: center;
+    justify-self: center;
+    flex-grow: 1;
+}
+.preview-caption{
+    margin-right: 30px!important;
+    margin-top: 30px!important;
+    width: 250px!important;
+}

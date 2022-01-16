@@ -1,0 +1,10 @@
+.feed{
+    padding-top: 67px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: #fafafa;
+}
+.feed-wrapper{
+    display: flex;
+}
