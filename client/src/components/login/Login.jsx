@@ -11,8 +11,8 @@ export default function Login({setUser}) {
 
 Axios.defaults.withCredentials = true;
 
-const [username, setUsername] = useState("salko0719");
-const [password, setPassword] = useState("salko123");
+const [username, setUsername] = useState("");
+const [password, setPassword] = useState("");
 const [loginMsg, setLoginMsg] = useState("")
 
 const login = () => {
