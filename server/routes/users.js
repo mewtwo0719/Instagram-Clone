@@ -9,7 +9,7 @@ router.get('/query/:userId', async(req, res) => {
     try{
      const user = await User.findById(req.params.userId);
      res.send(user)}catch(err){res.status(404).json(err)}
- })
+ }) 
 
  //get a user by username
 router.get('/', async(req, res) => {

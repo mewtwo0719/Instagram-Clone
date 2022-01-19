@@ -23,7 +23,8 @@ export default function Messenger({setCreatePostWindow, user}) {
 
 
     return (
-            <><Navbar setCreatePostWindow={setCreatePostWindow} user={user} />
+            <>
+            <Navbar setCreatePostWindow={setCreatePostWindow} user={user} /> 
 
             {showCreateRoomWindow && <CreateRoom user={user} setShowCreateRoomWindow={setShowCreateRoomWindow}/>}
             <div className="messenger">

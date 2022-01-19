@@ -7,7 +7,7 @@ router.post('/', async (req, res) => {
     const newConversation = new Conversation({
         members: req.body.members,
         name: req.body.name,
-        conversationImage: req.body.conversationImage
+        conversationImage: req.body.conversationImage 
     });
 
     try{
